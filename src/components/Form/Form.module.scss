@@ -1,0 +1,57 @@
+.root {
+  width: 430px;
+  min-height: 265px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  padding: 31px 56px 44px 41px;
+  box-shadow: 2px 2px 4px 0px #0000001a;
+
+  .wrapper {
+    width: 332px;
+    min-height: 191px;
+
+    h6 {
+      font-weight: 400;
+      font-size: 12px;
+      color: #484848;
+      margin-bottom: 8px;
+    }
+
+    form {
+      position: relative;
+      input {
+        width: 100%;
+        height: 33px;
+        padding: 6px 14px;
+        outline: none;
+        border-style: none;
+        border-radius: 4px 4px 0px 0px;
+        background: #ffffff;
+        border: 1px solid #e5e5e5;
+        font-size: 14px;
+      }
+
+      .autocomplete {
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        position: absolute;
+        left: 0;
+        top: 33px;
+        width: 100%;
+        max-height: 100px;
+        height: auto;
+        overflow: auto;
+
+        .autocompleteItem {
+          padding: 5px 8px;
+          margin: 0;
+          cursor: pointer;
+          transition: 250ms;
+          &:hover {
+            background-color: rgb(233, 233, 233);
+          }
+        }
+      }
+    }
+  }
+}
